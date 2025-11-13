@@ -1,0 +1,51 @@
+/* MARK: EXPERIENCE
+    */
+    .experience {
+        margin: 1rem 0;
+        border-bottom: 1px solid black;
+        .paper {
+            width: 260px;
+            background: linear-gradient(
+                to bottom right,
+                #eae9c2,
+                20%,
+                rgba(213, 224, 249, 0)
+            ),
+            #f9f8d5;
+        }
+        .paper::after {
+        background: linear-gradient(
+            rgba(255, 255, 255, 0),
+            50%,
+            #eae9c2,
+            51%,
+            rgba(255, 255, 255, 0)
+            ),
+            linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0),
+            50%,
+            #eae9c2,
+            51%,
+            rgba(255, 255, 255, 0)
+            );
+        }
+        .chainbox-intern, .pz-intern {
+            border-bottom: 1px solid black;
+        }
+        .pz-intern, .pz-developer {
+            .dates, .text {
+                padding-top: 1rem;
+                .list {
+                    margin: 0;
+                }
+            }
+        }
+        .text {
+            padding: 0 0 1rem 1rem;
+            .list {
+                display: flex;
+                margin: 0 0 1rem;
+            }
+        }
+    }
