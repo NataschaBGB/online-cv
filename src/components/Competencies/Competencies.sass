@@ -1,0 +1,28 @@
+.portfolio
+    &__competencies
+        margin: 0 0 1rem 0
+        padding: 1rem 1.5rem
+    &__competencies-titles
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .paper 
+            width: 180px
+            height: 40px
+            background: linear-gradient(to bottom right, #dfc2ea, 20%, rgba(213, 224, 249, 0)), #edd5f9
+            h2 
+                font-size: 1.3rem
+            
+        .paper::after
+            background: linear-gradient(rgba(255, 255, 255, 0), 50%, #dfc2ea, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #dfc2ea, 51%, rgba(255, 255, 255, 0))
+
+    &__competencies-image
+        width: 50px
+        img
+            width: 100%
+            object-fit: contain
+            
+    &__competencies-content
+        display: grid
+        grid-template-columns: 1fr 1fr
+    

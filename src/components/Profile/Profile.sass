@@ -1,0 +1,35 @@
+.portfolio
+    &__profile 
+        margin: 1rem 2rem
+        border-bottom: 1px solid black
+        // .content 
+        // display: grid
+        // grid-template-columns: 140px 1fr
+        // h3 
+        //     margin-bottom: .5rem
+        
+        // .text 
+        //     border-left: 1px solid rgb(206, 206, 206)
+        
+    /* MARK: Paper */
+    &__profile-titles 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        
+        .paper 
+            width: 180px
+            background: linear-gradient(to bottom right, #c2d5ea, 20%, rgba(213, 224, 249, 0)), #d5e6f9
+            margin: 1rem 0
+
+        .paper::after
+            background: linear-gradient(rgba(255, 255, 255, 0), 50%, #c2d5ea, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #c2d5ea, 51%, rgba(255, 255, 255, 0))
+    
+    &__profile-image 
+        width: 50px
+        img 
+            width: 100%
+            object-fit: contain
+        
+    &__profile-text 
+        padding: 0 0 1rem
