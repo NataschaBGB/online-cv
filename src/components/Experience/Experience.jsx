@@ -1,3 +1,7 @@
+export default function Experience() {
+    return (
+        <>
+
 <div className="experience">
     <div className="titles">
         <div className="image">
@@ -5,7 +9,7 @@
         </div>
         <div className="paper">
         <div className="top-tape"></div>
-            <h2>Erhvervserfaring</h2>
+            <h2>Experience</h2>
         </div>
     </div>
 
@@ -61,3 +65,7 @@
         </div>
     </div>
 </div>
+
+        </>
+    )
+}

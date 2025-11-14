@@ -1,8 +1,14 @@
-main
-    width: 1124px
-    margin: 0 auto
-    display: grid
-    grid-template-columns: 350px 1fr
+.portfolio
+    &__content
+        display: grid
+        grid-template-columns: auto 1fr
+        max-width: 1140px
+        margin: 0 auto
+
+    &__sidebar
+        // width: 350px
+        background-color: offwhite
+        border-right: 1px solid #949494ff
     
 /* MARK: Paper label */
 .paper
@@ -15,7 +21,7 @@ main
     font-size: 1rem
     box-shadow: 2px 2px 2px #d3d0cb
     margin: 1rem 0
-    .top-tape 
+    .top-tape
         position: absolute
         height: 2rem
         top: -14px
@@ -25,8 +31,7 @@ main
         border-right: 1px dotted #b7b49d
         border-left: 1px dotted #b7b49d
         opacity: 0.5
-    
-
+        
 .paper::after
     content: ""
     position: absolute
