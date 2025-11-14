@@ -5,9 +5,8 @@ export default function Header() {
         <>
             <header className="portfolio__hero">
                     <div className="portfolio__hero-text">
-                        <h2>CV</h2>
                         <h1>Natascha Gutenberg Bjerning</h1>
-                        <h2>Udvikler</h2>
+                        <h2>Developer</h2>
                     </div>
             </header>
         </>
