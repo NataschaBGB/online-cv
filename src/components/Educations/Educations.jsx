@@ -5,7 +5,7 @@ export default function Educations() {
     
     return (
         <>
-            <article className="portfolio__educations">
+            <section className="portfolio__educations">
 
                 <figure className="portfolio__educations-titles">
                     <img src={education} alt="portfolio_educations_image" className="portfolio__educations-image" />
@@ -17,7 +17,7 @@ export default function Educations() {
 
                 <section className="portfolio__educations-content">
                     
-                    <section className="portfolio__education">
+                    <article className="portfolio__education">
                         <div className="portfolio__education-dates">
                             <h3>AspIT</h3>
                             <p>August 2021 -</p>
@@ -40,13 +40,13 @@ export default function Educations() {
                             </div>
                             <p>AspIT er en IT-uddannelse, der er tilpasset folk med autisme og/eller ADHD. Med den grundlæggende viden, vi får om kodning og hardware, bliver man sendt i praktik hos et eller flere passende firmaer.</p>
                         </div>
-                    </section>
+                    </article>
 
-                    <section className="portfolio__education">
+                    <article className="portfolio__education">
                         <div className="portfolio__education-dates">
-                            <h3>Roskilde Tekniske Skole - Web developer</h3>
+                            <h3>Roskilde Tekniske Skole - Web Developer</h3>
                             <p>August 2025 -</p>
-                            <p>October 2026</p>
+                            <p>Now</p>
                         </div>
                         <div className="portfolio__education-text">
                             <div className="list">
@@ -66,11 +66,11 @@ export default function Educations() {
                             </div>
                             <p>Kort beskrivelse af skole</p>
                         </div>
-                    </section>
+                    </article>
                     
                 </section>
                 
-            </article>
+            </section>
         </>
     )
 
