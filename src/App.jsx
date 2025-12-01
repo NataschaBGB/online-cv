@@ -13,27 +13,26 @@ import Credentials from './components/Credentials/Credentials.jsx'
 export default function App() {
 
   return (
-    <section id="app" className="portfolio">
-        <Header />
+    <>
+      <Header />
+
+      <section className='cv'>
         
-        <section className='portfolio__content'>
-          
-          <main className='portfolio__main'>
-            <Profile />
-            <Educations />
-            <Experience />
-          </main>
+        <main className='cv__main'>
+          <Profile />
+          <Educations />
+          <Experience />
+        </main>
 
-          <aside className='portfolio__sidebar'>
-            <Competencies />
-            <Skills />
-            <Interests />
-            <Contact />
-            <Credentials />
-          </aside>
+        <aside className='cv__sidebar'>
+          <Competencies />
+          <Skills />
+          <Interests />
+          <Contact />
+          <Credentials />
+        </aside>
 
-        </section>
-    </section>
+      </section>
+    </> 
   )
-
 }
