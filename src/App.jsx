@@ -17,18 +17,18 @@ export default function App() {
         
         <section className='portfolio__content'>
           
+          <main className='portfolio__main'>
+            <Profile />
+            <Educations />
+            <Experience />
+          </main>
+
           <aside className='portfolio__sidebar'>
             <Competencies />
             <Skills />
             <Interests />
             <Contact />
           </aside>
-          
-          <main className='portfolio__main'>
-            <Profile />
-            <Educations />
-            {/* <Experience /> */}
-          </main>
 
         </section>
     </section>
