@@ -5,25 +5,25 @@ export default function Educations() {
     
     return (
         <>
-            <section className="portfolio__educations">
+            <section className="educations">
 
-                <figure className="portfolio__educations-titles">
-                    <img src={education} alt="portfolio_educations_image" className="portfolio__educations-image" />
+                <figure className="educations__titles">
+                    <img src={education} alt="educations_image" className="educations__image" />
                     <figcaption className="paper">
                         <div className="top-tape"></div>
                         <h2>Education</h2>
                     </figcaption>
                 </figure>
 
-                <section className="portfolio__educations-content">
+                <section className="educations__content">
                     
-                    <article className="portfolio__education">
-                        <div className="portfolio__education-dates">
+                    <article className="education">
+                        <div className="education__dates">
                             <h3>AspIT</h3>
                             <p>August 2021 -</p>
                             <p>July 2024</p>
                         </div>
-                        <div className="portfolio__education-text">
+                        <div className="education__text">
                             <div className="list">
                                 <ul>
                                     <li>Web Introduction</li>
@@ -42,13 +42,13 @@ export default function Educations() {
                         </div>
                     </article>
 
-                    <article className="portfolio__education">
-                        <div className="portfolio__education-dates">
+                    <article className="education">
+                        <div className="education__dates">
                             <h3>Roskilde Tekniske Skole - Web Developer</h3>
                             <p>August 2025 -</p>
                             <p>Now</p>
                         </div>
-                        <div className="portfolio__education-text">
+                        <div className="education__text">
                             <div className="list">
                                 <ul>
                                     {/* Opdater lister med erfaring fra skole */}

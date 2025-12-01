@@ -5,17 +5,17 @@ export default function Profile() {
   
     return (
         <>
-            <article className="portfolio__profile">
+            <article className="profile">
                     
-                <figure className="portfolio__profile-titles">
-                    <img src={profile} alt="nataschabjerning_profile" className="portfolio__profile-image" />
+                <figure className="profile__titles">
+                    <img src={profile} alt="nataschabjerning_profile" className="profile__image" />
                     <figcaption className="paper">
                         <div className="top-tape"></div>
                         <h2>About me</h2>
                     </figcaption>
                 </figure>
 
-                <section className="portfolio__profile-text">
+                <section className="profile__text">
                     <p>Passionate front-end web developer based in Brøndby, Denmark, with strong skills in HTML, SCSS, JavaScript, PHP, and WordPress, and working knowledge of React, Vite, and API integration.</p>
                     
                     <p>I enjoy creating user-friendly, visually engaging, and high-performing digital experiences that bridge design and technology.</p>
