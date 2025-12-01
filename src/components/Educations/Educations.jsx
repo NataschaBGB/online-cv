@@ -49,14 +49,14 @@ export default function Educations() {
                     <section className="education__list">
                         <ul>
                             {/* Opdater lister med erfaring fra skole */}
-                            <li>Web Introduction</li>
-                            <li>Web Construction</li>
-                            <li>Web Development</li>
-                            <li>Webudvikling og databaser</li>
-                            <li>Programming Introduction</li>
-                            <li>Application Programming</li>
-                            <li>IT Introduction</li>
-                            <li>IT Desktop, Server and Network</li>
+                            <li>JavaScript</li>
+                            <li>SASS</li>
+                            <li>Node.js</li>
+                            <li>Vite</li>
+                            <li>Vitest</li>
+                            <li>React</li>
+                            <li>React Router</li>
+                            <li>CRUD</li>
                         </ul>
                     </section>
                 </article>
