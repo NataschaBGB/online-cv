@@ -16,55 +16,62 @@ export default function Experience() {
                 </figure>
 
                 <article className="experience chainbox-intern">
-                    <div className="experience__dates">
-                        <h3>Chainbox</h3>
-                        <p>April 2023 -</p>
-                        <p>November 2023</p>
-                    </div>
-                    <div className="experience__text">
+                    <section className='experience__title'>
+                        <h3 className='experience__name'>Chainbox</h3>
+                        <div className="experience__dates">
+                            <p>April 2023 -</p>
+                            <p>November 2023</p>
+                        </div>
+                    </section>
+                    
+                    <section className="experience__text">
                         <h3>Internship</h3>
-                        <div className="list">
+                        <div className="experience__list">
                             <ul>
                                 <li>PHP</li>
                                 <li>Vue.js</li>
                             </ul>
                         </div>
-                    </div>
+                    </section>
                 </article>
                 
                 <article className="experience pz-intern">
-                    <div className="experience__dates">
-                        <h3>Personalezonen</h3>
-                        <p>December 2023 -</p>
-                        <p>Juli 2024</p>
-                    </div>
-                    <div className="experience__text">
+                    <section className='experience__title'>
+                        <h3 className='experience__name'>Personalezonen</h3>
+                        <div className="experience__dates">
+                            <p>December 2023 -</p>
+                            <p>Juli 2024</p>
+                        </div>
+                    </section>
+                    
+                    <section className="experience__text">
                         <h3>Internship</h3>
-                        <div className="list">
+                        <div className="experience__list">
                             <ul>
                                 <li>PHP</li>
                                 <li>WordPress</li>
                                 <li>Responsivt design</li>
-                            </ul>
-                            <ul>
                                 <li>jQuery</li>
                                 <li>JavaScript</li>
                             </ul>
                         </div>
-                    </div>
+                    </section>
                 </article>
 
                 <article className="experience pz-developer">
-                    <div className="experience__dates">
-                        <h3>Personalezonen</h3>
-                        <p>August 2024 -</p>
-                        <p>Februar 2025</p>
-                    </div>
-                    <div className="experience__text">
+                    <section className='experience__title'>
+                        <h3 className='experience__name'>Personalezonen</h3>
+                        <div className="experience__dates">                    
+                            <p>August 2024 -</p>
+                            <p>Februar 2025</p>
+                        </div>
+                    </section>
+
+                    <section className="experience__text">
                         <h3>Developer</h3>
-                        <p>I løbet af min tid hos firmaet har jeg fået mere erfaring med HTML, SCSS, jQuery, JavaScript, PHP og WordPress.<br/>
-                        Jeg har blandt andet lavet en kalender og en FAQ for en større Zoo i HTML, SCSS, PHP, WordPress og jQuery samt kodet en hel netcafé-hjemmeside fra bunden.</p>
-                    </div>
+                        <p>During my time at the company, I have gained more experience with HTML, SCSS, jQuery, JavaScript, PHP, and WordPress.<br/>
+                        Among other things, I have created a calendar and a FAQ section for a large zoo using HTML, SCSS, PHP, WordPress, and jQuery, as well as coded an entire internet café website from scratch.</p>
+                    </section>
                 </article>
             </section>
 

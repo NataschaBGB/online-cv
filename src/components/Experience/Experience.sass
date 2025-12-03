@@ -1,7 +1,6 @@
 /* MARK: EXPERIENCE*/
 
 .experiences
-    // margin: 1rem 2rem
     border-bottom: 1px solid black
 
     &__titles
@@ -23,24 +22,36 @@
     &__image
         width: 50px
 
+
+    
 .experience
-    // display: grid
-    // grid-template-columns: 200px 1fr
     border-bottom: 1px solid #949494ff
-    .chainbox-intern, .pz-intern
-        border-bottom: 1px solid black
-    .pz-intern, .pz-developer
-        .dates, .text
-            padding-top: 1rem
-            .list
-                margin: 0
-    &__dates
-        padding: 1rem 0
-    &__text
-        padding: 1rem
-        // border-left: 1px solid #cececeff
-        .list
-            display: flex
-            margin: 0 0 1rem
-            ul
-                margin: .5rem 1rem 0 1rem
+    padding: 1rem 0
+
+    &__title
+        display: flex
+        justify-content: space-between
+        margin: 0 0 1rem
+    
+    &__name
+        width: 50%
+        font-size: 22px
+
+    &__list
+        padding: .5rem 2rem 0 2rem
+    p
+        padding: .5rem 0 0
+
+
+
+
+/* MARK: Tablet */
+// @media (min-width: 768px)
+    // .experiences
+        // margin: 1rem 2rem
+    // .experience
+        // display: grid
+        // grid-template-columns: 200px 1fr
+
+        // &__text
+            // border-left: 1px solid #cececeff

@@ -6,29 +6,22 @@ export default function Skills() {
     return (
         <section className='skills'>
             <figure className="skills__titles">
-                <div className="skills__image">
-                    <img src={skills} alt="portfolio_skills_icon" />
-                </div>
+                <img src={skills} alt="portfolio_skills_icon" className="skills__image" />
                 <figcaption className="paper">
                     <div className="top-tape"></div>
                     <h2>Skills</h2>
                 </figcaption>
             </figure>
-            <section className="skills__content">
-                <div className="left">
-                    <ul>
-                        <li>Time management</li>
-                        <li>Creative Thinking</li>
-                        <li>Responsible</li>
-                    </ul>
-                </div>
-                <div className="right">
-                    <ul>
-                        <li>Patience</li>
-                        <li>Cooperation</li>
-                        <li>Detail oriented</li>
-                    </ul>
-                </div>
+
+            <section className="skills__list">
+                <ul>
+                    <li>Time management</li>
+                    <li>Creative Thinking</li>
+                    <li>Responsible</li>
+                    <li>Patience</li>
+                    <li>Cooperation</li>
+                    <li>Detail oriented</li>
+                </ul>
             </section>
         </section>
     )

@@ -7,31 +7,53 @@ export default function Credentials() {
   
     return (
         <section className="credentials">
-            <figure className="credentials__drivinglicense">
-                <div className="credentials__titles">
+
+            <section className="credentials__drivinglicense">
+
+                <figure className="credentials__titles">
                     <img src={drivinglicense} alt="nataschabjerning_drivinglicense" className='credentials__image' />
-                    <h2>Driving License</h2>
-                </div>
+                    <figcaption className="paper">
+                        <div className="top-tape"></div>
+                        <h2>Driving License</h2>
+                    </figcaption>
+                </figure>
+                
                 <h3>Category B</h3>
-            </figure>
-            <article className="credentials__language">
+            
+            </section>
+
+            <article className="credentials__languages">
+                
                 <figure className="credentials__titles">
                     <img src={language} alt="nataschabjerning_language" className='credentials__image' />
-                    <h2>Language</h2>
+                    <figcaption className="paper">
+                        <div className="top-tape"></div>
+                        <h2>Languages</h2>
+                    </figcaption>
                 </figure>
-                <section className="language-content">
-                    <div className="language-dk">
-                        <h3>Danish | Dansk</h3>
-                        <h4>Verbal: Fluent</h4>
-                        <h4>Written: Fluent</h4>
-                    </div>
-                    <div className="language-en">
-                        <h3>English</h3>
-                        <h4>Verbal: Fluent</h4>
-                        <h4>Written: Fluent</h4>
-                    </div>
+                
+                <section className="credentials__languages-table">
+                    <table>
+                        <tr>
+                            <th>Language</th>
+                            <th>Verbal</th>
+                            <th>Written</th>
+                        </tr>
+                        <tr>
+                            <td>Danish / Dansk</td>
+                            <td>Fluent</td>
+                            <td>Fluent</td>
+                        </tr>
+                        <tr>
+                            <td>English</td>
+                            <td>Fluent</td>
+                            <td>Fluent</td>
+                        </tr>
+                    </table>
                 </section>
+
             </article>
+
         </section>
     );
 }
