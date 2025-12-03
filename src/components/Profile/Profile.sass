@@ -12,11 +12,35 @@
         .paper 
             height: 50px
             width: 160px
-            background: linear-gradient(to bottom right, #c2d5ea, 20%, rgba(213, 224, 249, 0)), #d5e6f9
+            background: linear-gradient(to bottom right, #88c2ff, 20%, rgba(213, 224, 249, 0)), #9dc7f8
             font-size: 20px
 
         .paper::after
-            background: linear-gradient(rgba(255, 255, 255, 0), 50%, #c2d5ea, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #c2d5ea, 51%, rgba(255, 255, 255, 0))
+            background: linear-gradient(rgba(255, 255, 255, 0), 50%, #88c2ff, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #88c2ff, 51%, rgba(255, 255, 255, 0))
     
     &__image 
         width: 50px
+
+
+
+
+/* MARK: Tablet */
+@media (min-width: 768px)
+    .profile
+        &__titles 
+            .paper 
+                width: 180px
+                font-size: 24px
+        &__image 
+            width: 60px
+
+
+/* MARK: PC */
+@media (min-width: 1024px)
+    .profile
+        &__titles 
+            .paper 
+                height: 60px
+                font-size: 28px
+        &__image 
+            width: 70px
