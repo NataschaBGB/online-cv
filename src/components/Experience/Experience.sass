@@ -12,7 +12,6 @@
         .paper
             height: 50px
             width: 180px
-            // width: 260px
             background: linear-gradient(to bottom right, #eae9c2, 20%, rgba(213, 224, 249, 0)), #f9f8d5
             font-size: 20px
         
@@ -46,12 +45,38 @@
 
 
 /* MARK: Tablet */
-// @media (min-width: 768px)
-    // .experiences
-        // margin: 1rem 2rem
-    // .experience
-        // display: grid
-        // grid-template-columns: 200px 1fr
+@media (min-width: 768px)
+    .experiences
+        &__titles 
+            .paper 
+                width: 200px
+                font-size: 24px
+        &__image 
+            width: 60px
 
-        // &__text
-            // border-left: 1px solid #cececeff
+    .experience
+        display: grid
+        grid-template-columns: 200px 1fr
+
+        &__title
+            display: block
+            margin: 0
+            border-right: 1px solid #cececeff
+        &__name
+            width: 100%
+            font-size: 24px
+
+        &__text
+            border-left: 1px solid #cececeff
+            padding: 0 1rem
+
+
+/* MARK: PC */
+@media (min-width: 1024px)
+    .experiences
+        &__titles 
+            .paper 
+                height: 60px
+                font-size: 28px
+        &__image 
+            width: 70px
