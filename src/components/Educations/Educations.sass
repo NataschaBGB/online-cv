@@ -1,75 +1,104 @@
+// MARK: Educations
 .educations
     border-bottom: 1px solid black
 
+
+    // MARK: Paper Title
     &__titles
         display: flex
         align-items: center
         justify-content: space-between
         margin: 1rem 0 0
         
+        // Paper Label
         .paper
             height: 50px
             width: 160px
             background: linear-gradient(to bottom right, #c9eac2, 20%, rgba(213, 224, 249, 0)), #d5f9d5 
             font-size: 20px
 
+        // Paper Folds
         .paper::after
             background: linear-gradient(rgba(255, 255, 255, 0), 50%, #c9eac2, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #c9eac2, 51%, rgba(255, 255, 255, 0))
 
+    // Image
     &__image
         width: 50px
 
+
+
+// MARK: Education
 .education:last-of-type
     border: none
 .education
     border-bottom: 1px solid #949494ff
     padding: 1rem 0
 
+    // Education Title ( Name and Date )
     &__title
         display: flex
         justify-content: space-between
         margin: 0 0 1rem
     
+    // School Name
     &__name
         width: 50%
         font-size: 22px
 
+    // List of Classes
     &__list
         ul
             margin: .5rem 2rem 0 2rem
 
 
 
+// ------------------------------------------
 
-/* MARK: Tablet */
+
+// MARK: TABLET
 @media (min-width: 768px)
     .educations
-        &__titles 
+
+
+        // MARK: Paper Titles
+        &__titles
+            // Paper Label
             .paper 
                 height: 60px
                 width: 180px
                 font-size: 24px
+        // Image
         &__image 
             width: 60px
+
+    // Education
     .education
         display: grid
         grid-template-columns: 1fr 2fr
+        // Education Title ( Name and Date )
         &__title
             display: block
             margin: 0
             border-right: 1px solid #cececeff
+        // School Name
         &__name
             width: 100%
             font-size: 24px
+        // List of Classes
         &__list
             ul
                 margin: 0 0 0 2rem
 
 
 
+    
+// ------------------------------------------
+
+
 /* MARK: PC */
 @media (min-width: 1024px)
     .education
+        // List of Classes
         &__list
             ul
                 column-count: 2

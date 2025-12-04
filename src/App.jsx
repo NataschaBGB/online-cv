@@ -3,6 +3,7 @@ import Header from './components/Header/Header.jsx'
 import Profile from './components/Profile/Profile.jsx'
 import Educations from './components/Educations/Educations.jsx'
 import Experience from './components/Experience/Experience.jsx'
+// import Code from './components/Code/Code.jsx'
 
 import Competencies from './components/Competencies/Competencies.jsx'
 import Skills from './components/Skills/Skills.jsx'
@@ -22,6 +23,7 @@ export default function App() {
           <Profile />
           <Educations />
           <Experience />
+          {/* <Code /> */}
         </main>
 
         <aside className='cv__sidebar'>

@@ -1,36 +1,47 @@
+// MARK: Profile
 .profile
     border-bottom: 1px solid black
     padding: 0 0 1rem
         
-    /* MARK: Paper */
+        
+    // MARK: Paper Title
     &__titles 
         display: flex
         align-items: center
         justify-content: space-between
         margin: 0 0 1rem
         
+        // Paper Label
         .paper 
             height: 50px
             width: 160px
             background: linear-gradient(to bottom right, #88c2ff, 20%, rgba(213, 224, 249, 0)), #9dc7f8
             font-size: 20px
 
+        // Paper Folds
         .paper::after
             background: linear-gradient(rgba(255, 255, 255, 0), 50%, #88c2ff, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #88c2ff, 51%, rgba(255, 255, 255, 0))
     
+    // Image
     &__image 
         width: 50px
 
 
 
 
-/* MARK: Tablet */
+// ------------------------------------------
+
+
+// MARK: TABLET
 @media (min-width: 768px)
     .profile
-        &__titles 
+        &__titles
+            // Paper Label
             .paper 
                 height: 60px
                 width: 180px
                 font-size: 24px
+        
+        // Image
         &__image 
             width: 60px
