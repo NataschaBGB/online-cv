@@ -23,6 +23,8 @@
 
 
     
+.experience:last-of-type
+    border: none
 .experience
     border-bottom: 1px solid #949494ff
     padding: 1rem 0
@@ -49,6 +51,7 @@
     .experiences
         &__titles 
             .paper 
+                height: 60px
                 width: 200px
                 font-size: 24px
         &__image 
@@ -56,7 +59,7 @@
 
     .experience
         display: grid
-        grid-template-columns: 200px 1fr
+        grid-template-columns: 170px 2fr
 
         &__title
             display: block
@@ -67,16 +70,23 @@
             font-size: 24px
 
         &__text
-            border-left: 1px solid #cececeff
             padding: 0 1rem
+
+    .pz-developer
+        display: block
+        .experience__title
+            border-right: none
+        .experience__text
+            padding: 1rem 0
+
 
 
 /* MARK: PC */
 @media (min-width: 1024px)
-    .experiences
-        &__titles 
-            .paper 
-                height: 60px
-                font-size: 28px
-        &__image 
-            width: 70px
+    .experience
+        display: grid
+        grid-template-columns: 1fr 2fr
+        .experience__title
+            border-right: 1px solid #cececeff
+        .experience__text
+            padding: 0 1rem

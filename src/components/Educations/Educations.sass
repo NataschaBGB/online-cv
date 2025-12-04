@@ -19,6 +19,8 @@
     &__image
         width: 50px
 
+.education:last-of-type
+    border: none
 .education
     border-bottom: 1px solid #949494ff
     padding: 1rem 0
@@ -44,6 +46,7 @@
     .educations
         &__titles 
             .paper 
+                height: 60px
                 width: 180px
                 font-size: 24px
         &__image 
@@ -61,16 +64,13 @@
         &__list
             ul
                 margin: 0 0 0 2rem
-                column-count: 2
-                column-gap: 1rem
+
 
 
 /* MARK: PC */
 @media (min-width: 1024px)
-    .educations
-        &__titles 
-            .paper 
-                height: 60px
-                font-size: 28px
-        &__image 
-            width: 70px
+    .education
+        &__list
+            ul
+                column-count: 2
+                column-gap: 1rem
