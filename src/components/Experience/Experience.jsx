@@ -40,7 +40,7 @@ export default function Experience() {
                         <h3 className='experience__name'>Personalezonen</h3>
                         <div className="experience__dates">
                             <p>December 2023 -</p>
-                            <p>Juli 2024</p>
+                            <p>July 2024</p>
                         </div>
                     </section>
                     
@@ -63,7 +63,7 @@ export default function Experience() {
                         <h3 className='experience__name'>Personalezonen</h3>
                         <div className="experience__dates">                    
                             <p>August 2024 -</p>
-                            <p>Februar 2025</p>
+                            <p>February 2025</p>
                         </div>
                     </section>
 
