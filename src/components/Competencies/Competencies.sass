@@ -1,29 +1,33 @@
-
+// MARK: Competencies
 .competencies
     margin: 0 0 1rem 0
     border-bottom: 1px solid #000000
 
+    // MARK: Paper Title
     &__titles
         display: flex
         align-items: center
         justify-content: space-between
         margin: 1rem 0 0
         
+        // Paper Label
         .paper 
             width: 180px
             height: 40px
             background: linear-gradient(to bottom right, #dfc2ea, 20%, rgba(213, 224, 249, 0)), #edd5f9
             font-size: 20px
             
+        // Paper Folds
         .paper::after
             background: linear-gradient(rgba(255, 255, 255, 0), 50%, #dfc2ea, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #dfc2ea, 51%, rgba(255, 255, 255, 0))
 
+    // Image
     &__image
         width: 50px
             
+    // List of competencies
     &__list
         padding: 1rem 2rem
-
         ul
             column-count: 2
             column-gap: 2rem
@@ -31,8 +35,12 @@
 
 
 
-/* MARK: PC */
+// ------------------------------------------    
+
+
+// MARK: PC
 @media (min-width: 768px)
     .competencies
+        // List of competencies
         &__list
             padding: 1rem 0 1rem 2rem

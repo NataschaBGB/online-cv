@@ -1,77 +1,98 @@
-/* MARK: EXPERIENCE*/
-
+// MARK: Experience
 .experiences
     border-bottom: 1px solid black
 
+    
+    // MARK: Paper Titles
     &__titles
         display: flex
         align-items: center
         justify-content: space-between
         margin: 1rem 0 0
         
+        // Paper Label
         .paper
             height: 50px
             width: 180px
             background: linear-gradient(to bottom right, #eae9c2, 20%, rgba(213, 224, 249, 0)), #f9f8d5
             font-size: 20px
         
+        // Paper Folds
         .paper::after
             background: linear-gradient(rgba(255, 255, 255, 0), 50%, #eae9c2, 51%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 50%, #eae9c2, 51%, rgba(255, 255, 255, 0))
 
+    // Image
     &__image
         width: 50px
 
-
     
+// MARK: Experience
 .experience:last-of-type
     border: none
 .experience
     border-bottom: 1px solid #949494ff
     padding: 1rem 0
 
+    // Experience Title ( Name and Date )
     &__title
         display: flex
         justify-content: space-between
         margin: 0 0 1rem
     
+    // Workplace Name
     &__name
         width: 50%
         font-size: 22px
 
+    // List of Subjects
     &__list
         padding: .5rem 2rem 0 2rem
+    // Workplace Description
     p
         padding: .5rem 0 0
 
 
 
 
-/* MARK: Tablet */
+// ------------------------------------------
+
+
+// MARK: TABLET
 @media (min-width: 768px)
     .experiences
-        &__titles 
+
+
+        // MARK: Paper Titles
+        &__titles
+            // Paper Label 
             .paper 
                 height: 60px
                 width: 200px
                 font-size: 24px
+        // Image
         &__image 
             width: 60px
 
+    // MARK: Experience
     .experience
         display: grid
         grid-template-columns: 170px 2fr
 
+        // Experience Title ( Name and Date )
         &__title
             display: block
             margin: 0
             border-right: 1px solid #cececeff
+        // Workplace Name
         &__name
             width: 100%
             font-size: 24px
-
+        // Workplace Description
         &__text
             padding: 0 1rem
 
+    // MARK: Developer Section
+    // set to block and remove right border for better layout
     .pz-developer
         display: block
         .experience__title
@@ -81,8 +102,13 @@
 
 
 
-/* MARK: PC */
+
+// ------------------------------------------
+
+
+// MARK: PC
 @media (min-width: 1024px)
+    // set all .experience articles to grid again (including developer section)
     .experience
         display: grid
         grid-template-columns: 1fr 2fr
