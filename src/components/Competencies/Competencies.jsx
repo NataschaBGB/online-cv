@@ -6,7 +6,7 @@ export default function Competencies() {
         <section className="competencies">
             
             <figure className="competencies__titles">
-                <img src={strengths} alt="portfolio_competencies_icon" className="competencies__image" />
+                <img src={strengths} alt="competencies_icon" className="competencies__image" />
                 <figcaption className="paper">
                     <div className="top-tape"></div>
                     <h2>Competencies</h2>

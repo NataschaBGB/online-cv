@@ -10,7 +10,7 @@ export default function Contact() {
         <section className="contact">
             
             <figure className="contact__titles">
-                <img src={contact} alt="portfolio_contact_icon" className="contact__image" />
+                <img src={contact} alt="contact_icon" className="contact__image" />
                 <figcaption className="paper">
                     <div className="top-tape"></div>
                     <h2>Contact</h2>

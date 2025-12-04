@@ -6,7 +6,7 @@ export default function Skills() {
     return (
         <section className='skills'>
             <figure className="skills__titles">
-                <img src={skills} alt="portfolio_skills_icon" className="skills__image" />
+                <img src={skills} alt="skills_icon" className="skills__image" />
                 <figcaption className="paper">
                     <div className="top-tape"></div>
                     <h2>Skills</h2>

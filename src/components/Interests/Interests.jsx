@@ -6,7 +6,7 @@ export default function Interests() {
     return (
         <section className="interests">
             <figure className="interests__titles">    
-                <img src={interests} alt="portfolio_interests_icon" className="interests__image" />
+                <img src={interests} alt="interests_icon" className="interests__image" />
                 <figcaption className="paper">
                     <div className="top-tape"></div>
                     <h2>Interests</h2>
